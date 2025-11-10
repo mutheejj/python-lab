@@ -8,5 +8,5 @@ def agecalc(year):
     age = 2020 - year
     return age
 
-result = agecalc(year)
-print(f"Your age is: {result}")
+agecalc(2010)
+print(age)
