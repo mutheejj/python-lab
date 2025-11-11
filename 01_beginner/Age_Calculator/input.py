@@ -2,11 +2,11 @@
 
 year = int(input("Enter the year of birth: "))
 
-print(f"You were born in the {year}" , year)
+print(f"You were born in the year {year}")
 
-def agecalc (year): 
+def agecalc(year): 
     age = 2020 - year
-    return (0)
+    return age
 
-agecalc(2010)
-print(age)
+result = agecalc(year)
+print(f"Your age is: {result}")
